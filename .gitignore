@@ -1,0 +1,28 @@
+/node_modules
+/oh_modules
+/local.properties
+/.idea
+**/build
+/.hvigor
+.cxx
+/.clangd
+/.clang-format
+/.clang-tidy
+**/.test
+/.appanalyzer
+
+# 只进行源码版本管理：排除文档、截图、生成图片和真机调试导出
+*.md
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.pdf
+packing.json
+window.json
+
+# 本机工具与临时目录
+/.workbuddy
+/.codex
+*.log
