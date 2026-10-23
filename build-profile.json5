@@ -1,0 +1,56 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "C:\\Users\\Docker\\.ohos\\config\\default_schoolmate_aKTZqnlfufTmsOAN0j3GkJKS-aXhnHVXhn6F6qWOkVY=.cer",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001BD4FE718747DAD6653D0165169E130C4DB15608270565D92D954849E12688FD1E35BACADF3CF663",
+          "profile": "C:\\Users\\Docker\\.ohos\\config\\default_schoolmate_aKTZqnlfufTmsOAN0j3GkJKS-aXhnHVXhn6F6qWOkVY=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\Docker\\.ohos\\config\\default_schoolmate_aKTZqnlfufTmsOAN0j3GkJKS-aXhnHVXhn6F6qWOkVY=.p12",
+          "storePassword": "0000001BE6986D6D97B264BBAE3AF501E95019F7174C7A0372CC1FCCC91F2A82CE8066D5BB2FDCE4C74BD3"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "targetSdkVersion": "6.1.0(23)",
+        "compatibleSdkVersion": "6.0.0(20)",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}

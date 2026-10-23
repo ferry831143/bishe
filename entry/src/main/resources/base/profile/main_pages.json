@@ -1,0 +1,17 @@
+{
+  "src": [
+    "pages/Index",
+    "pages/LoginPage",
+    "pages/MainPage",
+    "pages/PackingListPage",
+    "pages/OcrPrecheckPage",
+    "pages/FlowTreePage",
+    "pages/AiButlerPage",
+    "pages/MapNavPage",
+    "pages/PickupCenterPage",
+    "pages/IceBreakPage",
+    "pages/MessageCenterPage",
+    "pages/MatchChatPage",
+    "pages/EditProfilePage"
+  ]
+}
